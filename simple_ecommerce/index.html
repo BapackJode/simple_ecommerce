@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css"/>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+        <title>Home - Simple Document</title>
+    </head>
+    <body>
+        <div  class="fa fa-hockey-puck" onclick="chat()">
+        </div>
+        <header>
+            <ul class="nav-list animate__animated animate__backInDown ">
+                <li class="nav-item">
+a                    <a href="index.html" class="nav-link">
+                        <span class="nav-icon fa fa-home"></span>
+                        <span class="nav-text">Home</span>
+aZ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon fa fa-cart-plus"></span>
+                        <span class="nav-text">Product</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="category/index.html" class="nav-link">
+                        <span class="nav-icon fa fa-list-dots"></span>
+                        <span class="nav-text">category</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon fa fa-user"></span>
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <!-- Section page - Product List -->
+            <div class="container">
+                <h2 class="title">ARSTORIA COFFEE</h2>
+                <!-- Row/Baris -->
+                <div class="row">
+                    <div class="col" onclick="buy('Baju lebaran',100000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-1.jpg" />
+                       
+                    </div>
+                    <div class="col" onclick="buy('Sepatu Diado',200000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-2.jpg" />
+                      
+                    </div>
+                    <div class="col" onclick="buy('Celana Lebaran',500000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-3.jpg" />
+                        
+                    </div>
+                    <div class="col" onclick="buy('Baju Bagus',300000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-4.jpg" />
+                       
+                    </div>
+                    <div class="col" onclick="buy('Sepatu abu',300000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-5.jpg" />
+                       
+                    </div>
+                    <div class="col" onclick="buy('Baju pum',400000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-6.jpg" />
+                        
+                    </div>
+                    <div class="col" onclick="buy('Kaos kaki',100000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-7.jpg" />
+                       
+                    </div>
+                    <div class="col" onclick="buy('Jam Tangan',150000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-8.jpg" />
+                      
+                    </div>
+                    <div class="col" onclick="buy('Baju Jam Tangan',200000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-9.jpg" />
+                       
+                    </div>
+                    <div class="col" onclick="buy('sneaker',340000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-10.jpg" />
+                        
+                    </div>
+                    <div class="col" onclick="buy('Sepatu lari',100000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-11.jpg" />
+                        
+                    </div>
+                    <div class="col" onclick="buy('jogger',1100000)">
+                        <!-- Column / Kolom -->
+                        <img src="assets/images/product-12.jpg" />
+                       
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>All Rights Reserverd &copy <span id="year"></span>. ARSTORIA COFFEE</p>
+        </footer>
+
+        <script src="assets/source.js"></script>
+    </body>
+</html>
